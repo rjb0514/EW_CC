@@ -10,7 +10,7 @@ s.social_media_url   = "http://www.jianshu.com/u/a56ec10f6603"
 s.license= { :type => "MIT", :file => "LICENSE" }
 s.author       = { "ru" => "codewicky@163.com" }
 s.source       = { :git => "https://github.com/rjb0514/EW_CC.git", :tag => s.version.to_s }
-s.source_files = "CC/*.{h,m}"
+s.source_files = "EW_CC/CC/*.{h,m}"
 s.ios.deployment_target = '6.0'
 s.frameworks   = 'UIKit'
 s.requires_arc = true
