@@ -13,6 +13,7 @@
 		93F5760C1EC53D59004351FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F5760A1EC53D59004351FB /* Main.storyboard */; };
 		93F5760E1EC53D59004351FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F5760D1EC53D59004351FB /* Assets.xcassets */; };
 		93F576111EC53D59004351FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F5760F1EC53D59004351FB /* LaunchScreen.storyboard */; };
+		93F5761A1EC53FE8004351FB /* RWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F576191EC53FE8004351FB /* RWTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		93F5760D1EC53D59004351FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F576101EC53D59004351FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F576121EC53D59004351FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F576181EC53FE8004351FB /* RWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTool.h; sourceTree = "<group>"; };
+		93F576191EC53FE8004351FB /* RWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				93F576051EC53D59004351FB /* AppDelegate.m */,
 				93F576071EC53D59004351FB /* ViewController.h */,
 				93F576081EC53D59004351FB /* ViewController.m */,
+				93F576181EC53FE8004351FB /* RWTool.h */,
+				93F576191EC53FE8004351FB /* RWTool.m */,
 				93F5760A1EC53D59004351FB /* Main.storyboard */,
 				93F5760D1EC53D59004351FB /* Assets.xcassets */,
 				93F5760F1EC53D59004351FB /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				93F576091EC53D59004351FB /* ViewController.m in Sources */,
 				93F576061EC53D59004351FB /* AppDelegate.m in Sources */,
+				93F5761A1EC53FE8004351FB /* RWTool.m in Sources */,
 				93F576031EC53D59004351FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +281,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ru.CCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -286,9 +294,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ru.CCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -311,6 +321,7 @@
 				93F576171EC53D59004351FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
